@@ -1,0 +1,68 @@
+Part:1
+
+.Different types of data(Data Basics)
+.Data Visualizationsa.
+    a.Density plot 
+    b.Histogram    
+    c.Bar plot and segmented bar Plot    
+    d.Scatter plot
+    d.Box Plot    
+    e.Mosaic Plot     
+    F.Ladder Plot
+.Machine Learning Problem type (Supervised and Unsupervised Learning)
+.Measure of central tendency (Mean, Mode ,SD and Necessary intuition)  
+.Robust Statistics 
+.Introduction for inference  (The Gender discrimination Test) 
+.Sampling Techniques
+
+.Python installation  basic Exploration
+
+Resources For reference
+Ope
+
+
+
+
+Part:2
+.Basics of probability Solving Problems  
+.Independence, 
+.Joint and disjoint    
+.Bayes Theorem.
+.Probability Trees
+.Binomial Distribution 
+.Normal distribution
+.68-95-99.7 Rule
+.Central Limit Theorem 
+.Hypothesis test For Mean
+    p-VALUE
+    Z Score
+    T-Distribution
+    Confidence interval
+.ANOVA
+.chi square test
+--------------------------------    
+Resources For reference
+R Installation and introduction to R
+https://sejdemyr.github.io/r-tutorials/basics/
+
+
+
+
+Part:3
+.Introduction to RBeginning of predictive models
+.Covariance and correlation    
+     .Simple Linear Regression
+     .Building a predictive model (Train CV and Test sets)
+.Coefficient and determination.
+.Significance tests.
+.Polynomial regression
+.Adjusted Coefficient and determination
+.Interpretation of regression coefficients
+.Assumptions of Linear Regression and its implications
+    .Heteroscedasticity
+    .Serial Correlation
+    .Multi-collinearity
+    .Outliers.
+
+
+Resources For reference
