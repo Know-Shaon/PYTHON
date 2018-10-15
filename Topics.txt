@@ -31,7 +31,6 @@ Probability (special topic) 76
 2.3 Sampling from a small population (special topic) ............... 102 
 2.5 Continuous distributions (special topic) .................... 113 
 
-
 --------------------------------    
 Resources For reference
 Concepts
@@ -45,22 +44,12 @@ https://sejdemyr.github.io/r-tutorials/basics/
 
 
 
-
 Part:2
-.Introduction to RBeginning of predictive models
-.Covariance and correlation    
-     .Simple Linear Regression
-     .Building a predictive model (Train CV and Test sets)
-.Coefficient and determination.
-.Significance tests.
-.Polynomial regression
-.Adjusted Coefficient and determination
-.Interpretation of regression coefficients
-.Assumptions of Linear Regression and its implications
-    .Heteroscedasticity
-    .Serial Correlation
-    .Multi-collinearity
-    .Outliers.
+7 Introduction to linear regression 331 
+7.1 Line ﬁtting, residuals, and correlation ..................... 333 
+7.2 Fitting a line by least squares regression .................... 340 
+7.3 Types of outliers in linear regression ...................... 349 
+7.4 Inference for linear regression .......................... 351 
 
 
 --------------------------------    
