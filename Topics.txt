@@ -1,54 +1,52 @@
 Part:1
 
-.Different types of data(Data Basics)
-.Data Visualizationsa.
-    a.Density plot 
-    b.Histogram    
-    c.Bar plot and segmented bar Plot    
-    d.Scatter plot
-    d.Box Plot    
-    e.Mosaic Plot     
-    F.Ladder Plot
-.Machine Learning Problem type (Supervised and Unsupervised Learning)
-.Measure of central tendency (Mean, Mode ,SD and Necessary intuition)  
-.Robust Statistics 
-.Introduction for inference  (The Gender discrimination Test) 
-.Sampling Techniques
+Introduction to data
 
-.Python installation  basic Exploration
+1.2 Data basics .................................... 9 
+1.3 Overview of data collection principles ..................... 15 
+1.4 Observational studies and sampling strategies ................. 19 
+1.5 Experiments .................................... 24 
+1.6 Examining numerical data ............................ 26 
+1.7 Considering categorical data ........................... 43 
+1.8 Case study: gender discrimination (special topic) ............... 50 
 
-Resources For reference
-Ope
+Distributions of random variables 127 
+3.1 Normal distribution ............................... 127 
+3.2 Evaluating the normal approximation ..................... 137 
+3.4 Binomial distribution (special topic) ...................... 145 
+
+Foundations for inference 168 4.1 
+Variability in estimates .............................. 169 
+4.2 Conﬁdence intervals ............................... 174 
+4.3 Hypothesis testing ................................ 180 
+4.4 Examining the Central Limit Theorem ..................... 194 
+4.5 Inference for other estimators .......................... 197 
+
+Inference for numerical data 219
+5.1 One-sample means with the t-distribution ................... 219
+
+Probability (special topic) 76 
+2.1 Deﬁning probability (special topic) ....................... 76 
+2.2 Conditional probability (special topic) ..................... 88 
+2.3 Sampling from a small population (special topic) ............... 102 
+2.5 Continuous distributions (special topic) .................... 113 
 
 
-
-
-Part:2
-.Basics of probability Solving Problems  
-.Independence, 
-.Joint and disjoint    
-.Bayes Theorem.
-.Probability Trees
-.Binomial Distribution 
-.Normal distribution
-.68-95-99.7 Rule
-.Central Limit Theorem 
-.Hypothesis test For Mean
-    p-VALUE
-    Z Score
-    T-Distribution
-    Confidence interval
-.ANOVA
-.chi square test
 --------------------------------    
 Resources For reference
+Concepts
+OpenIntor Statistics (Third Edition )
+https://www.stattrek.com/tutorials/ap-statistics-tutorial.aspx
+
+Programming
 R Installation and introduction to R
 https://sejdemyr.github.io/r-tutorials/basics/
 
 
 
 
-Part:3
+
+Part:2
 .Introduction to RBeginning of predictive models
 .Covariance and correlation    
      .Simple Linear Regression
@@ -65,4 +63,8 @@ Part:3
     .Outliers.
 
 
+--------------------------------    
 Resources For reference
+Concepts
+https://www.analyticsvidhya.com/blog/2017/06/a-comprehensive-guide-for-linear-ridge-and-lasso-regression/
+https://www.analyticsvidhya.com/blog/2016/07/deeper-regression-analysis-assumptions-plots-solutions/
