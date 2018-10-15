@@ -55,5 +55,6 @@ Part:2
 --------------------------------    
 Resources For reference
 Concepts
+OpenIntor Statistics (Third Edition )
 https://www.analyticsvidhya.com/blog/2017/06/a-comprehensive-guide-for-linear-ridge-and-lasso-regression/
 https://www.analyticsvidhya.com/blog/2016/07/deeper-regression-analysis-assumptions-plots-solutions/
