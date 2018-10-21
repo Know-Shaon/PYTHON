@@ -58,3 +58,10 @@ Concepts
 OpenIntor Statistics (Third Edition )
 https://www.analyticsvidhya.com/blog/2017/06/a-comprehensive-guide-for-linear-ridge-and-lasso-regression/
 https://www.analyticsvidhya.com/blog/2016/07/deeper-regression-analysis-assumptions-plots-solutions/
+
+
+Part:3
+Logistic regression
+https://ml-cheatsheet.readthedocs.io/en/latest/logistic_regression.html#gradient-descent
+https://www.analyticsvidhya.com/blog/2016/02/7-important-model-evaluation-error-metrics/
+https://github.com/TVMKISHORE/R_Source/blob/R_Source/logistic%20regression%20glm.R
