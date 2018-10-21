@@ -42,16 +42,12 @@ R Installation and introduction to R
 https://sejdemyr.github.io/r-tutorials/basics/
 
 
-
-
 Part:2
 7 Introduction to linear regression 331 
 7.1 Line ﬁtting, residuals, and correlation ..................... 333 
 7.2 Fitting a line by least squares regression .................... 340 
 7.3 Types of outliers in linear regression ...................... 349 
 7.4 Inference for linear regression .......................... 351 
-
-
 --------------------------------    
 Resources For reference
 Concepts
@@ -64,7 +60,6 @@ Part:3
 
 6.3 Testing for goodness of fit using chi-square (special topic) . . . . . . . . . . 286
 6.4 Testing for independence in two-way tables (special topic) . . . . . . . . . . 297
-
 Logistic regression
 https://ml-cheatsheet.readthedocs.io/en/latest/logistic_regression.html#gradient-descent
 https://www.analyticsvidhya.com/blog/2016/02/7-important-model-evaluation-error-metrics/
