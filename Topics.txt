@@ -61,6 +61,10 @@ https://www.analyticsvidhya.com/blog/2016/07/deeper-regression-analysis-assumpti
 
 
 Part:3
+
+6.3 Testing for goodness of fit using chi-square (special topic) . . . . . . . . . . 286
+6.4 Testing for independence in two-way tables (special topic) . . . . . . . . . . 297
+
 Logistic regression
 https://ml-cheatsheet.readthedocs.io/en/latest/logistic_regression.html#gradient-descent
 https://www.analyticsvidhya.com/blog/2016/02/7-important-model-evaluation-error-metrics/
