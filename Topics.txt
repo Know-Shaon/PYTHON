@@ -71,3 +71,19 @@ https://github.com/TVMKISHORE/R_Source/blob/R_Source/logistic%20regression%20glm
 
 Recommended readings 
 https://www.analyticsvidhya.com/blog/2016/01/guide-data-exploration/
+
+
+part:4
+Decision tree
+  https://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/
+Random forest 
+  https://www.analyticsvidhya.com/blog/2015/06/tuning-random-forest-model/?     utm_content=buffer62268&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+Naïve Bayes Algorithm 
+  https://www.analyticsvidhya.com/blog/2017/09/naive-bayes-explained/
+K-nearest neighbourhood classifier /regressor
+  https://medium.com/@adi.bronshtein/a-quick-introduction-to-k-nearest-neighbors-algorithm-62214cea29c7
+  https://www.analyticsvidhya.com/blog/2018/03/introduction-k-neighbours-algorithm-clustering/ 
+Association 
+  https://www.kdnuggets.com/2016/04/association-rules-apriori-algorithm-tutorial.html
+
+
