@@ -77,7 +77,7 @@ part:4
 Decision tree
   https://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/
 Random forest 
-  https://www.analyticsvidhya.com/blog/2015/06/tuning-random-forest-model/?     utm_content=buffer62268&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
+  https://www.analyticsvidhya.com/blog/2015/06/tuning-random-forest-model/?utm_content=buffer62268&utm_medium=social&utm_source=twitter.com&utm_campaign=buffer
 Naïve Bayes Algorithm 
   https://www.analyticsvidhya.com/blog/2017/09/naive-bayes-explained/
 K-nearest neighbourhood classifier /regressor
