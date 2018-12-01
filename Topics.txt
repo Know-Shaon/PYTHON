@@ -85,6 +85,7 @@ K-nearest neighbourhood classifier /regressor
   https://www.analyticsvidhya.com/blog/2018/03/introduction-k-neighbours-algorithm-clustering/ 
 Association 
   https://www.kdnuggets.com/2016/04/association-rules-apriori-algorithm-tutorial.html
+  http://r-statistics.co/Association-Mining-With-R.html
 
 
 
