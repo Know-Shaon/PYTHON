@@ -96,4 +96,5 @@ https://www.analyticsvidhya.com/blog/2016/11/an-introduction-to-clustering-and-d
 K-Fold cross Validation 
 Data wrangling 
 https://www.rstudio.com/resources/webinars/data-wrangling-with-r-and-rstudio/
-
+Evaluation
+https://sebastianraschka.com/faq/docs/issues-with-clustering.html
