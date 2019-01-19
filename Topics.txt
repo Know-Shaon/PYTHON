@@ -40,6 +40,8 @@ https://www.stattrek.com/tutorials/ap-statistics-tutorial.aspx
 Programming
 R Installation and introduction to R
 https://sejdemyr.github.io/r-tutorials/basics/
+Bayes Theorem
+https://www.analyticsvidhya.com/blog/2017/03/conditional-probability-bayes-theorem/
 
 
 Part:2
