@@ -100,3 +100,9 @@ Data wrangling
 https://www.rstudio.com/resources/webinars/data-wrangling-with-r-and-rstudio/
 Evaluation
 https://sebastianraschka.com/faq/docs/issues-with-clustering.html
+
+Part-6
+Time series 
+https://a-little-book-of-r-for-time-series.readthedocs.io/en/latest/src/timeseries.html#forecasts-using-exponential-smoothing
+https://www.analyticsvidhya.com/blog/2015/12/complete-tutorial-time-series-modeling/?utm_source=twitter.com
+
