@@ -73,6 +73,7 @@ https://github.com/TVMKISHORE/R_Source/blob/R_Source/logistic%20regression%20glm
 
 Recommended readings 
 https://www.analyticsvidhya.com/blog/2016/01/guide-data-exploration/
+https://ml-cheatsheet.readthedocs.io/en/latest/logistic_regression.html
 
 
 part:4
