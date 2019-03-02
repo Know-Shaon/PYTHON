@@ -76,7 +76,6 @@ https://www.analyticsvidhya.com/blog/2016/01/guide-data-exploration/
 https://ml-cheatsheet.readthedocs.io/en/latest/logistic_regression.html
 https://blog.exsilio.com/all/accuracy-precision-recall-f1-score-interpretation-of-performance-measures/
 
-
 part:4
 Decision tree
   https://www.analyticsvidhya.com/blog/2016/04/complete-tutorial-tree-based-modeling-scratch-in-python/
@@ -90,8 +89,6 @@ K-nearest neighbourhood classifier /regressor
 Association 
   https://www.kdnuggets.com/2016/04/association-rules-apriori-algorithm-tutorial.html
   http://r-statistics.co/Association-Mining-With-R.html
-
-
 
 Part:5
 Clustering 
@@ -115,4 +112,3 @@ Part-6
 Time series 
 https://a-little-book-of-r-for-time-series.readthedocs.io/en/latest/src/timeseries.html#forecasts-using-exponential-smoothing
 https://www.analyticsvidhya.com/blog/2015/12/complete-tutorial-time-series-modeling/?utm_source=twitter.com
-
