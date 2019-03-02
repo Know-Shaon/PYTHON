@@ -98,8 +98,16 @@ Clustering
 https://www.analyticsvidhya.com/blog/2013/11/getting-clustering-right/
 https://www.analyticsvidhya.com/blog/2016/11/an-introduction-to-clustering-and-different-methods-of-clustering/
 K-Fold cross Validation 
+
 Data wrangling 
+#tidyr dplyr
 https://www.rstudio.com/resources/webinars/data-wrangling-with-r-and-rstudio/
+#Date handling 
+https://www.stat.berkeley.edu/~s133/dates.html
+https://www.r-bloggers.com/date-formats-in-r/
+#Regular expression
+https://stat545.com/block022_regular-expression.html
+
 Evaluation
 https://sebastianraschka.com/faq/docs/issues-with-clustering.html
 
