@@ -2,7 +2,7 @@ Part:1
 
 Introduction to data
 
-1.2 Data basics .................................... 9 
+1.2 Data basics .................................... 12 
 1.3 Overview of data collection principles ..................... 15 
 1.4 Observational studies and sampling strategies ................. 19 
 1.5 Experiments .................................... 24 
