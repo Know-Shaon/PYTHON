@@ -9,6 +9,7 @@ Introduction to data
 1.6 Examining numerical data ............................ 26 
 1.7 Considering categorical data ........................... 43 
 1.8 Case study: gender discrimination (special topic) ............... 50 
+4.3.4 Formal testing using p-values.......186
 
 Distributions of random variables 127 
 3.1 Normal distribution ............................... 127 
