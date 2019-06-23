@@ -62,8 +62,11 @@ Part:3
 Chi-square test
 6.3 Testing for goodness of fit using chi-square (special topic) . . . . . . . . . . 286
 6.4 Testing for independence in two-way tables (special topic) . . . . . . . . . . 297
+
+Recommended readings 
 ANOVA
 https://www.analyticsvidhya.com/blog/2018/01/anova-analysis-of-variance/
+https://support.minitab.com/en-us/minitab-express/1/help-and-how-to/basic-statistics/probability-distributions/supporting-topics/basics/continuous-and-discrete-probability-distributions/
 
 Logistic regression
 https://ml-cheatsheet.readthedocs.io/en/latest/logistic_regression.html#gradient-descent
