@@ -1,0 +1,89 @@
+from ayx import Alteryx
+
+import pandas as pd
+import re
+
+gtsv_data =Alteryx.read("#1")
+gtsv_data['CHANGE_DATE'] = pd.to_datetime(gtsv_data['CHANGE_DATE'])
+
+
+
+----
+
+T_Number = []
+matched_t_num = list(gtsv_data['T_Number'])
+toolname  = list(gtsv_data['TOOLNAME'])
+tool_description = list(gtsv_data['DESCRIPTION'])
+for i in range(0, len(matched_t_num)):
+    match = None
+    t_num = str(matched_t_num[i])
+    item_name = str(toolname[i])
+    description = str(tool_description[i])
+    if t_num != 'NA':
+        match = re.search(r'\(?([T])+([0-9])+.\)?', t_num)
+        if match is not None:
+            match = re.sub(r'[^a-zA-Z0-9 ]',r'',str(match.group()))
+            match = match.replace("X", "")
+            T_Number.append(match.replace("-", ""))
+    if match is None:
+            if item_name != '':
+                match = re.search(r'\(?([T])+([0-9])+.\)?', item_name)
+                if match is not None:
+                    match = re.sub(r'[^a-zA-Z0-9 ]',r'',str(match.group()))
+                    match = match.replace("X", "")
+                    T_Number.append(match.replace("-", ""))
+    if match is None:
+                        if description != '':
+                            match = re.search(r'\(?([T])+([0-9])+.\)?', description)
+                            if match is not None:
+                                match = re.sub(r'[^a-zA-Z0-9 ]',r'',str(match.group()))
+                                match = match.replace("X", "")
+                                T_Number.append(match.replace("-", ""))
+    if match is None:
+            T_Number.append("NA")
+gtsv_data['T_Number'] = T_Number
+
+
+
+---
+
+# Round of to the nearest 5 minute
+# Sort by Change Date, Item_ID, life_id, location_id, comp_item_id
+gtsv_data['ref_change_date'] = gtsv_data['CHANGE_DATE'].dt.round('5min')
+gtsv_data = gtsv_data.sort_values(by = ['plant_cd','ITEM_ID', 'ref_change_date', 'LOCATION_ID', 'COMP_ITEM_ID',
+                                     'EXPECTED_COUNT', 'END_COUNT', 'ISSUENAME'], ascending  = [1,1,1,1,1,0,0,1])
+
+
+
+# IF we do that and extract the first record that will minimize the number of duplicates
+
+
+
+
+---
+
+
+# Step 1: Minimize the number of duplicate records getting booked for the same edge
+
+gtsv_grouped1 = gtsv_data.groupby(['plant_cd','ITEM_ID', 'ref_change_date', 'LOCATION_ID', 
+                                'COMP_ITEM_ID', 'EXPECTED_COUNT', 'END_COUNT', 'ISSUENAME']).first().reset_index()
+
+#print ("Number of Records in DEP Grouped 1", len(dep_grouped1))
+
+
+
+----
+# step 2 : For the same component id see if there are multiple expected count available if so take the maximum expected count
+
+gtsv_grouped2 = gtsv_grouped1.groupby(['plant_cd','ITEM_ID', 'ref_change_date', 'LOCATION_ID', 
+                                    'COMP_ITEM_ID', 'ISSUENAME']).agg({ 'EXPECTED_COUNT': max,'END_COUNT':max}).reset_index()
+
+gtsv_grouped1 = gtsv_grouped1.merge(gtsv_grouped2, on = ['plant_cd','ITEM_ID', 'ref_change_date', 'LOCATION_ID', 'COMP_ITEM_ID', 
+                                                     'ISSUENAME', 'EXPECTED_COUNT', 'END_COUNT'], how = 'inner')
+
+#print ("Number of Records Reduced", len(dep_grouped1))
+
+
+
+----
+Alteryx.write(gtsv_grouped1,1)
